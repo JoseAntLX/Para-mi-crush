@@ -15,6 +15,6 @@ btnSi.addEventListener('click', function(e) {
     alert('Sabía que dirías que sí. Casémonos y tengamos hijos. TE AMO!!! ♥');
     modoSexo.style.display = 'block';
     btnNo.style.display = 'none';
-    const cancion = new Audio('link audio');
+    const cancion = new Audio('img//img_modo_hot.mp3');
     cancion.play();
 })
