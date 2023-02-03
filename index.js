@@ -17,4 +17,21 @@ btnSi.addEventListener('click', function(e) {
     btnNo.style.display = 'none';
     const cancion = new Audio('img//img_modo_hot.mp3');
     cancion.play();
+});
+
+modoSexo.addEventListener('click', function(e) {
+    const img = document.createElement('img');
+    img.src = "https://i.pinimg.com/originals/c5/e3/c9/c5e3c9b5260daa31f5a4ab03ff048ece.png";
+    modoSexo.appendChild(img);
 })
+
+const botones = document.getElementsByTagName('button');
+console.log(botones);
+
+window.addEventListener('beforeunload', (event) => {
+    event.preventDefault();
+    event.returnValue = "";
+})
+
+
+// Me quedé en 1:07:04
