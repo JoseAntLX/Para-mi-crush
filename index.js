@@ -33,5 +33,3 @@ window.addEventListener('beforeunload', (event) => {
     event.returnValue = "";
 })
 
-
-// Me quedé en 1:07:04
